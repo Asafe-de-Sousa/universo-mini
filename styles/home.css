@@ -1,0 +1,154 @@
+* {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+i {
+    font-size: 1.8rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;   
+}
+
+header img {
+    width: 15%;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header > div > .signin-signup-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Navbar */
+nav {
+    background-color: #efd8d8;
+    padding: 2px;
+}
+
+nav ul {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    color: #0a4c86;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+/* Widgets */
+.widgets-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+
+.widget {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.widget i {
+    font-size: 4.5rem;
+}
+
+/* Products */
+.products-carrousel {
+    display: flex;
+    padding: 0% 5%;
+    gap: 20px;
+
+}
+
+.products-exposition h2 {
+    text-align: center;
+}
+
+.product-card {
+    width: fit-content;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card .content {
+    margin-left: 20px;
+}
+
+.product-card h3 {
+    font-size: 1.8rem;
+    margin: 0px;
+}
+
+.product-card .avaliation-container p {
+    margin: 0px;
+}
+
+.product-card .price {
+    margin: 15px auto 5px auto;
+}
+
+.product-card .price span {
+    color: #6c863f;
+    font-size: 2rem;
+}
+
+.product-card button {
+    background-color: #7ed957;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.avaliation-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-star {
+    color: #f2c832;
+    font-size: 1rem;
+}
+
+/* Instgram */
+.instagram .title {
+    text-align: center;
+}
+
+.instagram .title h2 {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.instagram .title p {
+    margin: 0px;
+    font-size: 1.2rem;
+}
